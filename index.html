@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
+
+<head>
+	<title>Fight!</title>
+</head>
+
+<body id="body">
+
+<p id="instructions">Press ENTER to begin!!!</p>
+
+<div id="mainPage">
+  <div class="container">
+    <div class="row"> 
+      <div class="col-md-12">
+        <img src="assets/images/Header.png" alt="The Golden Girls">
+      </div>
+    </div>
+		<div class="row">
+      <!--Column-->
+      <div class="col-md-6">
+        <!--row-->
+        <div class="row">
+          <div class="col-md-12 allies">
+            <img class="fighter-pic" src="assets/images/rose.png" alt="Rose" name="Rose" type = "unpicked">
+            <img class="fighter-pic" src="assets/images/blanche.png" alt="Blanche" name="Blanche" type = "unpicked">
+            <img class="fighter-pic" src="assets/images/dorothy.png" alt="Dorothy" name="Dorothy" type = "unpicked">
+            <img class="fighter-pic" src="assets/images/sophia.png" alt="Sophia" name="Sophia" type = "unpicked">
+          </div>
+        </div>
+        <!--row-->
+        <div class="row"> 
+          <br>
+          <div id="messageRow" class="col-md-12"></div>
+        </div>
+        <!--row-->
+        <div class="row"> 
+          <div id="opponentRow" class="col-md-12 opponent"></div>
+        </div>
+        <!--row-->
+        <div class="row"> 
+          <div class="col-md-12 enemies"></div>
+        </div>
+        <!--row-->
+        <div class="row">
+          <div class="col-md-12">
+            <br/>
+            <br/>
+            <button type="button" class="btn btn-dark">Fight!</button>
+          </div>
+        </div>
+        <!--row-->
+        <div class="row">
+          <div class="col-md-3">
+            <p id="your-stats"></p>
+          </div>
+          <div class="col-md-3">
+            <p id="enemy-stats"></p>
+          </div>
+        </div>
+
+      </div> <!-- End Column -->
+
+      <!--Column-->
+      <div class="col-md-6">
+        <img src="assets/images/Logo.png" alt="Golden Girls">
+      </div>  
+    </div>
+  </div> <!-- End Container -->
+
+
+<br>
+<br>
+
+
+<div id="theme-song" style="opacity: 0; height: 1px;width: 1px"></div>
+
+
+</div> <!-- End mainPage -->
+</body>
+</html>
