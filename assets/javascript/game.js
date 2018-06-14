@@ -140,6 +140,7 @@ $( "html" ).keypress(function(event) {
 		$('video').trigger('pause');
 		$("#myVideo").remove();
 		document.getElementById("mainPage").style.background = "#FEAF14";
+		document.getElementById("body").style.background = "#FEAF14";
 		document.getElementById("mainPage").style.opacity = "1";
 		$("#theme-song").append($("<video id='myVideo2' />"));
 		$("#myVideo2").attr('src', 'assets/videos/GGtheme.mp4');
